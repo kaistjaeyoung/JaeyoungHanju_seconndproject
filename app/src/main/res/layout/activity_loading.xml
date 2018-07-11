@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp">
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background1"
+        android:visibility="visible"
+        app:srcCompat="@drawable/load"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/loadingsyringe"
+        android:layout_width="207dp"
+        android:layout_height="137dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="189dp"
+        android:src="@drawable/talk"
+        tools:ignore="ContentDescription"
+        tools:tint="@color/com_facebook_button_background_color_selected" />
+
+    <TextView
+        style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loadingsyringe"
+        android:layout_centerHorizontal="true"
+        android:text="Snow Chat"
+        android:textColor="@color/com_facebook_button_background_color_selected"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+    <com.jetradarmobile.snowfall.SnowfallView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:snowflakesNum="250"
+        app:snowflakeAlphaMin="150"
+        app:snowflakeAlphaMax="255"
+        app:snowflakeAngleMax="5"
+        app:snowflakeSizeMin="8dp"
+        app:snowflakeSizeMax="32dp"
+        app:snowflakeSpeedMin="10"
+        app:snowflakeSpeedMax="20"
+        app:snowflakesFadingEnabled="true"
+        app:snowflakesAlreadyFalling="false"
+        app:snowflakeImage="@drawable/snowflake"/>
+
+</RelativeLayout>

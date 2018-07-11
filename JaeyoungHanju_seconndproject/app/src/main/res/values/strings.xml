@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Caffe!ne</string>
+<string name="facebook_app_id">206334556875190</string>
+    <!-- TODO: Remove or change this placeholder text -->
+<string name="action_settings">Settings</string>
+<string name="hello_world">Hello world!</string>
+<string name="menu1">통화내역</string>
+<string name="contacts">주소록</string>
+<string name="hello_blank_fragment">Hello blank fragment</string>
+<string name="testtext">no</string>
+    </resources>

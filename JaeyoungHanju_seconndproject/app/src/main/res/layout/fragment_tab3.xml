@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Tab3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Your favorite friends"
+        android:textColor="@color/theme_light"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="204dp"
+        android:textColor="@color/theme_light"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <ListView
+        android:id="@+id/favListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:choiceMode="singleChoice"></ListView>
+
+    <ImageView
+        android:id="@+id/buttonImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="13dp"
+        android:src="@drawable/circle"
+        android:tint="@color/Mocha" />
+
+    <Button
+        android:id="@+id/favUpdateButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="13dp"
+        android:background="@color/transparent"
+        android:text="+"
+        android:textColor="@color/latte"
+        android:textSize="30dp"
+        android:visibility="visible" />
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="80dp"
+        android:src="@drawable/camera"
+        />
+
+    <Button
+        android:id="@+id/cameraButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="80dp"
+        android:background="@color/transparent"
+        android:tint="@color/Mocha"
+        />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="150dp"
+        android:src="@drawable/watch"
+        android:tint="@color/Mocha"
+        />
+
+    <Button
+        android:id="@+id/watch"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="150dp"
+        android:background="@color/transparent"
+        />
+
+
+    <Button
+        android:id="@+id/chatting"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="210dp"
+
+        />
+</RelativeLayout>

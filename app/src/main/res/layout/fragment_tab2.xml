@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Tab2"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <GridView
+        android:id="@+id/gridView"
+        android:background="@drawable/background"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:choiceMode="singleChoice"
+        android:columnWidth="100dp"
+        android:numColumns="auto_fit"
+        android:rowHeight="100dp"
+        android:stretchMode="columnWidth" />
+
+    <ImageView
+        android:id="@+id/buttonImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="13dp"
+        android:src="@drawable/update_mocha" />
+
+    <Button
+        android:id="@+id/galleryUpdate"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="13dp"
+        android:background="@color/transparent"
+        android:textSize="30dp"
+        android:visibility="visible" />
+</RelativeLayout>
